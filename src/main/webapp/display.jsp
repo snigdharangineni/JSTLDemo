@@ -28,6 +28,7 @@
 	
 		<c:out value="${gadget.gid}"></c:out> :<c:out value="${gadget.gname}"></c:out> :<c:out value="${gadget.price}"></c:out>
 	</c:forEach>
-	<c:redirect url = "functionTag.jsp"></c:redirect>
+	<%-- <c:redirect url = "functionTag.jsp"></c:redirect> --%>
+	
 </body>
 </html>
