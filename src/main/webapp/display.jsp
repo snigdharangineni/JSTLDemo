@@ -15,6 +15,8 @@
 	%>
 	
 	${label}
-	<c:out value="Hello World"></c:out>
+	<c:forEach items = "${students}" var = "s">
+		${s} <br/>
+	</c:forEach>
 </body>
 </html>
